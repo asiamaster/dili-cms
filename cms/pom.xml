@@ -84,11 +84,11 @@
     <dependencies>
 
         <!-- spring boot 基类  -->
-		<dependency>
-			<groupId>com.dili</groupId>
-			<artifactId>ss-beetl</artifactId>
-			<version>${sharp-sword.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>com.dili</groupId>
+            <artifactId>ss-beetl</artifactId>
+            <version>${sharp-sword.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.dili</groupId>
             <artifactId>ss-processor</artifactId>
@@ -139,7 +139,7 @@
         <dependency>
             <groupId>com.dili</groupId>
             <artifactId>uap-sdk</artifactId>
-            <version>3.0.0-SNAPSHOT</version>
+            <version>3.1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.dili</groupId>
@@ -159,7 +159,6 @@
         </dependency>
 
     </dependencies>
-
 
 
 </project>
