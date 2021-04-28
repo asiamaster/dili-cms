@@ -124,3 +124,6 @@ CREATE TABLE `file_type`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 49 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+
+INSERT INTO `dili_cms`.`file_type`(`id`, `parent_id`, `name`, `node_file_count`, `remark`, `firm_code`, `creator_id`, `create_time`, `update_time`, `version`) VALUES (33, 0, '测试类型', 2, NULL, 'group', 1, '2021-02-01 17:49:54', '2021-04-28 18:03:41', 15);
